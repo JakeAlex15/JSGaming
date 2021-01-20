@@ -1,0 +1,181 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+body {
+    background-color: rgb(7, 0, 31);
+    color: rgb(255, 208, 0);
+    text-shadow: 2px solid black;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    align-content: space-around;
+}
+
+nav {
+    width: 70%;
+    height: 4em;
+    background-color: rgb(7, 0, 31);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: right;
+    margin-left: 27em;
+}
+
+nav a {
+  color: rgb(255, 208, 0);
+    display: flex;
+    flex-direction: row;
+    text-shadow: 2px black;
+    font-size: 2em;
+    padding: 4em;
+}
+
+.site-title {
+    text-align: left;
+    margin-top: -2.4em;
+    padding: 1em;
+    margin-left: 1em;
+    font-size: 3em;
+}
+
+.bio {
+  padding: 2em;
+    display: flex;
+    text-align: center;
+   margin-left: 24em;
+    max-width: 600px;
+}
+
+#game-title {
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+img {
+    padding: 2em; 
+    width: 650px; 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20%;
+}
+
+.color-guess {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.face-match {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    text-align: center;
+}
+
+.caption {
+    font-size: 2em;
+    color: rgb(255, 208, 0);
+}
+
+.color-code-title {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.face-code-title {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 5em;
+    padding-bottom: 1em;
+}
+
+.code-title {
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.color-guess-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.face-match-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+body .gist .gist-file {
+    margin-bottom: 0;
+    border: 1px dashed #adb5bd;
+    border-radius: 0;
+  }
+  
+  body .gist .gist-data {
+    border-bottom: none;
+    border-radius: 0;
+    background-color:  rgb(255, 208, 0);
+  }
+
+  body .gist .blob-wrapper {
+    border-radius: 0;
+  }
+  
+  body .gist .highlight {
+    background-color: transparent;
+    font-family: 'Droid Sans Mono', monospace;
+    font-size: 18px;
+  }
+  
+  body .gist .highlight td {
+    padding: 5px 15px !important;
+    line-height: 1;
+    font-family: inherit;
+    font-size: inherit;
+    color: rgb(7, 0, 31)
+  }
+  
+  body .gist tr:first-child td {
+    padding-top: 15px !important;
+  }
+  
+  body .gist tr:last-child td {
+    padding-bottom: 15px !important;
+  }
+  
+  body .gist .blob-num {
+    color: rgb(7, 0, 31);
+    background-color: rgb(255, 208, 0);
+    pointer-events: none;
+  }
+  
+  body .gist .gist-meta {
+    display: none;
+  }
