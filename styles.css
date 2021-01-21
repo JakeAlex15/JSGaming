@@ -43,6 +43,14 @@ nav a {
     padding: 4em;
 }
 
+img {
+    padding: 2em; 
+    width: 650px; 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20%;
+}
+
 .site-title {
     text-align: left;
     margin-top: -2.4em;
@@ -65,15 +73,7 @@ nav a {
     padding-bottom: 1.5em;
 }
 
-img {
-    padding: 2em; 
-    width: 650px; 
-    display: flex;
-    justify-content: space-between;
-    border-radius: 20%;
-}
-
-.color-guess {
+.color-guess-game {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -81,7 +81,7 @@ img {
     text-align: center;
 }
 
-.face-match {
+.face-match-game {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -131,6 +131,8 @@ img {
     text-align: center;
     margin-bottom: 5em;
 }
+
+/* GIST CSS */
 
 body .gist .gist-file {
     margin-bottom: 0;
